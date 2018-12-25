@@ -10,3 +10,25 @@ header {
 	margin-right: auto;
 	padding-top: 109px;
 }
+
+input {
+	z-index: 2;
+	display: block;
+	margin: auto;
+	width: 520px;
+	height: 34px;
+	
+
+	
+}
+
+.background-search {
+	z-index: 3;
+	margin: auto;
+	display: block;
+	width: 540px;
+	height: 45px;
+	
+	border-radius: 2px;
+	border: 1px solid rgba(0, 0, 0, .2);
+}
