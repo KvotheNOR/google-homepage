@@ -4,31 +4,54 @@ header {
 	padding-bottom: 45px;
 }
 
+
 #google-logo {
+	padding-left: 350px;
+	padding-right: 350px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 109px;
 }
 
+#search-bar {
+	padding-left: 245px;
+	padding-right: 245px;
+	margin: 28px auto;
+	width: 500px;
+	height: 100px;
+	position: relative;
+
+}
+
+#square {
+	display: inline-block;
+	height: 40px;
+	width: 480px;
+	background-color: white;
+	position: absolute;
+	margin-left: -10px;
+	margin-top: -4px;
+	border: 1px solid rgba(0, 0, 0, .1);
+}
+
 input {
-	z-index: 2;
-	display: block;
-	margin: auto;
-	width: 520px;
+	position: absolute;
+	z-index: 5;
+	width: 420px;
 	height: 34px;
-	
+	margin: 0;
+	border-width: 0px;
+	padding: 0;	
+}
 
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: gray;
+	color: black;
 	
 }
 
-.background-search {
-	z-index: 3;
-	margin: auto;
-	display: block;
-	width: 540px;
-	height: 45px;
-	
-	border-radius: 2px;
-	border: 1px solid rgba(0, 0, 0, .2);
-}
