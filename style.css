@@ -48,28 +48,61 @@ input {
 
 
 footer {
+	border: solid 1px rgb(122, 122, 122);
+	height: 41px;
+	background-color: gray;
+	font-family: arial sans-serif;
+	color: rgba(0, 0, 0, 0.54);
+	display: block;
+	padding-left: 20px;
+	background-color: rgba(0, 0, 0, 0.20);
+}
+
+
+#lower-footer {
 	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: gray;
-	color: black;
 	
+	
+}
+
+#higher-footer {
+	border-bottom: none;
+	position: fixed;
+	left: 0;
+	bottom: 41px;
+	
+	
+	width: 100%;
 }
 
 .search-buttons {
 	text-align: center;
- 	color: white;
- 	padding-top: 25px;
+ 	padding-top: 30px;
  	
 }
 
-#google-search {
+.search-buttons button {
+	background-color: rgb(242, 242, 242);
 	display: inline-block;
-	height: 30px;
+	height: 35px;
+	border: none;
+	font-family: arial, sans-serif;
+	font-size 13px;
+	color: rgb(117, 117, 117);
+	font-weight: 700;
+	padding: 10px 20px;
+
+}
+
+#google-search {
+	margin-right: 10px;
+	
 }
 
 #lucky-search {
-	display: inline-block;
-	height: 30px;
+
+
 }
