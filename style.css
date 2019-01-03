@@ -17,10 +17,9 @@ header {
 #search-bar {
 	padding-left: 245px;
 	padding-right: 245px;
-
-	margin: 28px auto;
+	margin: 28px auto 0px;
 	width: 500px;
-	height: 100px;
+	height: 40px;
 	position: relative;
 
 }
@@ -58,3 +57,19 @@ footer {
 	
 }
 
+.search-buttons {
+	text-align: center;
+ 	color: white;
+ 	padding-top: 25px;
+ 	
+}
+
+#google-search {
+	display: inline-block;
+	height: 30px;
+}
+
+#lucky-search {
+	display: inline-block;
+	height: 30px;
+}
