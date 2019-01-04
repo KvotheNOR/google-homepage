@@ -48,14 +48,37 @@ input {
 
 
 footer {
-	border: solid 1px rgb(122, 122, 122);
-	height: 41px;
+	border: solid 1px rgb(200, 200, 200);
+	border-bottom: none;
+	height: 39px;
 	background-color: gray;
 	font-family: arial sans-serif;
 	color: rgba(0, 0, 0, 0.54);
 	display: block;
-	padding-left: 20px;
-	background-color: rgba(0, 0, 0, 0.20);
+	padding-left: 30px;
+	background-color: rgb(242, 242, 242);
+}
+
+.footer-link {
+	display: inline-block;
+	padding: 11px 0;
+	padding-right: 22px;
+
+	font-family: arial, sans-serif;
+}
+
+#lower-link {
+	font-size: 13px;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.54);
+}
+
+#lower-right {
+	font-size: 13px;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.54);
+	margin-left: 510px;
+
 }
 
 
@@ -69,6 +92,7 @@ footer {
 }
 
 #higher-footer {
+	height: 40px;
 	border-bottom: none;
 	position: fixed;
 	left: 0;
