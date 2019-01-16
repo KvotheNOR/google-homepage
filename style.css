@@ -54,7 +54,7 @@ footer {
 	background-color: gray;
 	font-family: arial sans-serif;
 	color: rgba(0, 0, 0, 0.54);
-	display: block;
+	
 	padding-left: 30px;
 	background-color: rgb(242, 242, 242);
 }
@@ -63,33 +63,50 @@ footer {
 	display: inline-block;
 	padding: 11px 0;
 	padding-right: 22px;
-
 	font-family: arial, sans-serif;
 }
 
-#lower-link {
+.lower-link {
 	font-size: 13px;
 	text-decoration: none;
 	color: rgba(0, 0, 0, 0.54);
 }
 
-#lower-right {
-	font-size: 13px;
-	text-decoration: none;
-	color: rgba(0, 0, 0, 0.54);
-	margin-left: 510px;
-
+.first-link {
+	margin-left: 700px;
+	display: inline-block;
 }
 
 
 #lower-footer {
+	display: inline-block;
 	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
 	
+}
+
+
+.lower-div {
+	position: relative;
+	width: 20%;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: top;
+
+}
+
+#right-div {
 	
 }
+
+.something {
+	float: right;
+}
+
+
 
 #higher-footer {
 	height: 40px;
@@ -97,8 +114,6 @@ footer {
 	position: fixed;
 	left: 0;
 	bottom: 41px;
-	
-	
 	width: 100%;
 }
 
