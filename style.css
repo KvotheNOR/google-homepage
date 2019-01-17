@@ -4,6 +4,35 @@ header {
 	padding-bottom: 45px;
 }
 
+.header-button {
+	border: none;
+	background-color: white;
+	font-family: arial, sans-serif;
+	line-height: 25px;
+	font-size: 13px;
+
+}
+
+#sign-in {
+	background-color: #4285f4;
+	border: 1px solid #4285f4;
+	line-height: 28px;
+	border-radius: 2px;
+	color: white;
+	font-weight: bold;
+}
+
+
+
+#google-settings {
+	background-image: url("images/google-settings.png");
+	width: 24px;
+	height: 21px;
+	border: none;
+	
+
+}
+
 
 #google-logo {
 	padding-left: 350px;
@@ -36,6 +65,30 @@ header {
 	border: 1px solid rgba(0, 0, 0, .2);
 }
 
+.search-buttons {
+	text-align: center;
+ 	padding-top: 30px;
+ 	
+}
+
+.search-buttons button {
+	background-color: rgb(242, 242, 242);
+	display: inline-block;
+	height: 35px;
+	border: none;
+	font-family: arial, sans-serif;
+	font-size 13px;
+	color: rgb(117, 117, 117);
+	font-weight: 700;
+	padding: 10px 20px;
+
+}
+
+#google-search {
+	margin-right: 10px;
+	
+}
+
 input {
 	position: absolute;
 	z-index: 5;
@@ -62,19 +115,7 @@ footer {
 .footer-link {
 	display: inline-block;
 	padding: 11px 0;
-	padding-right: 22px;
-	font-family: arial, sans-serif;
-}
-
-.lower-link {
-	font-size: 13px;
-	text-decoration: none;
-	color: rgba(0, 0, 0, 0.54);
-}
-
-.first-link {
-	margin-left: 700px;
-	display: inline-block;
+	
 }
 
 
@@ -89,8 +130,9 @@ footer {
 
 
 .lower-div {
-	position: relative;
-	width: 20%;
+	position: fixed;
+	padding: 11px 0;
+	width: 22%;
 	display: inline-block;
 	*display: inline;
 	zoom: 1;
@@ -98,14 +140,21 @@ footer {
 
 }
 
+.lower-div a {
+	padding-right: 22px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.54);
+}
+
 #right-div {
+	margin-left: 738px;
+	text-align: right;
+	width: 100%;
+	right: 20px;
 	
 }
-
-.something {
-	float: right;
-}
-
 
 
 #higher-footer {
@@ -117,31 +166,4 @@ footer {
 	width: 100%;
 }
 
-.search-buttons {
-	text-align: center;
- 	padding-top: 30px;
- 	
-}
 
-.search-buttons button {
-	background-color: rgb(242, 242, 242);
-	display: inline-block;
-	height: 35px;
-	border: none;
-	font-family: arial, sans-serif;
-	font-size 13px;
-	color: rgb(117, 117, 117);
-	font-weight: 700;
-	padding: 10px 20px;
-
-}
-
-#google-search {
-	margin-right: 10px;
-	
-}
-
-#lucky-search {
-
-
-}
